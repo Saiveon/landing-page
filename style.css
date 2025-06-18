@@ -8,7 +8,8 @@
 
 body {
     min-height: 100vh;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -17,6 +18,7 @@ header {
     /* padding: 16px; */
     background-color: rgba(112, 18, 42, 0.764);
     gap: 10rem;
+
 }
 
 .link-containers {
@@ -49,4 +51,39 @@ header {
 
 .header-items {
     font-size: 16px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    background-color: rgba(112, 18, 42, 0.764);
+    gap: 10rem;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 320px;
+}
+
+.text-box-button {
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+
+.text-box-img {
+    width: 480px;
+    height: 320px;
+}
+
+.text-box-img img {
+    width: 30rem;
 }
